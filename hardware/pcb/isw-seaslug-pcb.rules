@@ -1,0 +1,93 @@
+
+(rules PCB isw-seaslug-pcb
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 7182)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.7)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clearance 200.2)
+    (clearance 125.0 (type smd_to_turn_gap))
+    (clearance 200.2 (type smd))
+    (clearance 200.2 (type "kicad_default"))
+    (clearance 200.2 (type kicad))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    +3V3 +5V
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    SCL SDA Col1 Col0 "Net-(D1-A)" RE0B RE0A "Net-(D2-A)"
+    "unconnected-(U1-Pad1)" "unconnected-(U1-Pad8)" "unconnected-(U1-Pad14)" "Net-(D3-A)" "Net-(D4-A)" "Net-(D5-A)" "Net-(D6-A)" Row0
+    Row1 Row2 Row3 "Net-(LED1-DOUT)" "Net-(LED2-DOUT)" "Net-(LED3-DOUT)" "Net-(LED4-DOUT)" "Net-(LED5-DOUT)"
+    "Net-(LED6-DOUT)" "Net-(LED7-DOUT)" "Net-(LED8-DOUT)" "Net-(LED10-DIN)" "unconnected-(LED10-DOUT-Pad1)" "unconnected-(U1-Pad15)" "RE_SW1"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "ƒNƒ‰ƒX1"
+    GND LED5V LED3.3V
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

@@ -74,15 +74,15 @@ Please be proud of it on social networking sites!
 ### [EVQWGD001 rotary encoder](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/soldering-evqwgd001.md)
 
 ### AZ1UBALL or StickPointV
-[!IMPORTANT]
-When installing the StickPointV, replace the 12 mm knurled spacer fixed to the PCB with a 14 mm knurled spacer.
+> [!IMPORTANT]
+> When installing the StickPointV, replace the 12 mm knurled spacer fixed to the PCB with a 14 mm knurled spacer.
 
 [Please solder the 4P pinsocket to the PCB in advance.](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/soldering-4p-pinsocket.md)  
 <img src="../img/buildguide/mounting-pointing_device-01.jpg" width="80%">
 
 Secure the pointing device to the cover plate with 4 mm screws.  
-[!IMPORTANT]
-When installing the StickPointV, replace the spacer supplied with the StickPointV with a 6 mm knurled spacer.  
+> [!IMPORTANT]
+> When installing the StickPointV, replace the spacer supplied with the StickPointV with a 6 mm knurled spacer.  
 <img src="../img/buildguide/mounting-pointing_device-02.jpg" width="80%">
 
 Plug the pointing device into the 4P pin socket.  

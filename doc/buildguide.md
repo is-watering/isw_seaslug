@@ -10,7 +10,8 @@ Cover plate              |1        | |
 1N4148W diodes           |6        | |
 SK6812 MINI-E leds       |10       | |
 MOSFET BSS138            |1        | |
-1kΩ resistors            |2        | |
+1kΩ resistor             |1        | |
+560Ω resistor            |1        | |
 Kailh hotswap sockets    |6        | |
 RP2040-Zero              |1        | |
 M2x4mm screws            |12        | |
@@ -37,6 +38,7 @@ M2x14mm Knurled spacers    |4        |Used when StickPointV is installed.<br>[Al
 ### [Diodes](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/soldering-1n4148w.md)
 
 ### [MOSFET, Resistors](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/soldering-bss138.md)
+Solder a 1kΩ resistor to R1 and a 560Ω resistor to R2.
 
 ### [Hotswap sockets](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/soldering-cpg151101s11.md)
 

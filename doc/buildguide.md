@@ -37,8 +37,10 @@ M2x14mm Knurled spacers    |4        |Used when StickPointV is installed.<br>[Al
 
 ### [Diodes](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/en/soldering-1n4148w.md)
 
-### [MOSFET, Resistors](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/en/soldering-bss138.md)
-Solder a 1kΩ resistor to R1 and a 560Ω resistor to R2.
+### [MOSFET](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/en/soldering-bss138.md)
+
+### [Resistors](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/en/soldering-resistor.md)
+Solder a 1kΩ resistor to R1 and a 560Ω resistor to R2.  
 
 ### [Hotswap sockets](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/en/soldering-cpg151101s11.md)
 

@@ -33,14 +33,14 @@ M2x14mm Knurled spacers    |4        |Used when StickPointV is installed.<br>[Al
 
 ## Build PCB
 
-### [Leds](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/soldering-sk6812mini-e.md)
+### [Leds](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/en/soldering-sk6812mini-e.md)
 
-### [Diodes](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/soldering-1n4148w.md)
+### [Diodes](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/en/soldering-1n4148w.md)
 
-### [MOSFET, Resistors](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/soldering-bss138.md)
+### [MOSFET, Resistors](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/en/soldering-bss138.md)
 Solder a 1kΩ resistor to R1 and a 560Ω resistor to R2.
 
-### [Hotswap sockets](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/soldering-cpg151101s11.md)
+### [Hotswap sockets](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/en/soldering-cpg151101s11.md)
 
 ### RP2040-Zero
 It is recommended to check whether the firmware can be written to the microcontroller in advance.
@@ -48,7 +48,7 @@ It is recommended to check whether the firmware can be written to the microcontr
 * [Soure code](https://github.com/is-watering/isw_seaslug/tree/main/firmware)
 
 Solder the microcontroller from the top of the PCB, face down, using surface mount soldering.  
-[Learn more about how to solder microcontrollers](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/surfacemount-rp2040-zero.md)  
+[Learn more about how to solder microcontrollers](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/en/surfacemount-rp2040-zero.md)  
 <img src="../img/buildguide/build-pcb-01.jpg" width="80%">
 
 Fix 12mm Knurled spacers with 4mm screws.  
@@ -77,13 +77,13 @@ Please be proud of it on social networking sites!
 `#isw_kbd`
 
 ## Build Optionally
-### [EVQWGD001 rotary encoder](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/soldering-evqwgd001.md)
+### [EVQWGD001 rotary encoder](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/en/soldering-evqwgd001.md)
 
 ### AZ1UBALL or StickPointV
 > [!IMPORTANT]
 > When installing the StickPointV, replace the 12 mm knurled spacer fixed to the PCB with a 14 mm knurled spacer.
 
-[Please solder the 4P pinsocket to the PCB in advance.](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/soldering-4p-pinsocket.md)  
+[Please solder the 4P pinsocket to the PCB in advance.](https://github.com/is-watering/isw-kbd-building-tips/blob/main/doc/en/soldering-4p-pinsocket.md)  
 <img src="../img/buildguide/mounting-pointing_device-01.jpg" width="80%">
 
 Secure the pointing device to the cover plate with 4 mm screws.  
